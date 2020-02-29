@@ -1,0 +1,15 @@
+name: MuaPoint
+main: LamPocketVN\MuaPoint\MuaPoint
+version: 0.1.lpk
+api: 3.9.0
+author: LamPocketVN
+depend:
+  - EconomyAPI
+  - PointAPI
+commands:
+  muapoint:
+    description: "Mua Point Command"
+permissions:
+  muapoint.command:
+    description: "Allow use command /muapoint"
+    default: true

@@ -1,15 +1,12 @@
-name: MuaPoint
-main: LamPocketVN\MuaPoint\MuaPoint
+name: MineSweeperPE
 version: 0.1.lpk
-api: 3.9.0
-author: LamPocketVN
-depend:
-  - EconomyAPI
-  - PointAPI
-commands:
-  muapoint:
-    description: "Mua Point Command"
+api: 3.11.0
+main: NgLamVN\minesweeper\MineSweeper
+description: "A plugin that allow you to play MineSweeper in your Minecraft BE server :3"
+authors: [NgLamVN, JINODK]
+
 permissions:
-  muapoint.command:
-    description: "Allow use command /muapoint"
+  mspe.command.start:
+    default: true
+  mspe.command.stop:
     default: true
